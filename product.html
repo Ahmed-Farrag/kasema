@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title> قسيمة - جلسة تقشير الوجه بأحماض الفواكه </title>
+
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-rtl.min.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/flag-icon.min.css">
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+    <link rel="stylesheet" href="css/smart_cart.min.css">
+
+
+
+</head>
+
+<body>
+    <!-- Start Navbar -->
+    <div class="upper-nav">
+        <div class="container-fluid">
+            <div class="row">
+
+                <div class="col-md-6 d-none d-md-block text-center  ">
+                    <a class=" btn btn-primary">من نحن </a>
+                    <a class=" btn btn-primary"> طرق الدفع </a>
+                    <a class=" btn btn-primary "> تواصل معنا </a>
+                </div>
+
+                <div class="col-md-6 text-center  ">
+                    <form class=" form-inline  d-inline ">
+                        <input id="search-nav-input" class=" form-control" type="search" placeholder=" البحث في الموقع " aria-label=" البحث في الموقع ">
+                        <button class="btn" type="submit"> <i class="fas fa-search"></i> </button>
+                    </form>
+
+                    <div class="btn-group d-inline">
+                        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="far fa-user-circle"></i> حسابي
+                        </button>
+                        <div class="dropdown-menu text-right">
+                            <a class="dropdown-item" href="#"> <i class="fas fa-table"></i> طلباتي </a>
+                            <a class="dropdown-item" href="#"> <i class="fas fa-address-book"></i> بياناتي </a>
+                            <a class="dropdown-item" href="#"> <i class="fas fa-wallet"></i> الماليات</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#" style="color:red;"> <i class="fas fa-door-open"></i> تسجيل الخروج</a>
+                        </div>
+                    </div>
+
+
+
+
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <!-- End Navbar -->
+    <!-- Start Advertise -->
+    <div class="text-center mb-2">
+        <img src="img/leaderboardar.jpg" class="img-fluid">
+    </div>
+    <!-- End Advertise -->
+
+    <!-- Start Menu -->
+    <div class="container-fluid">
+        <div class="bg-w row">
+
+            <nav class="col navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">
+                    <img src="img/kasema.png" width="140" height="50" alt="">
+                </a>
+
+
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#kasemaNavMenu" aria-controls="kasemaNavMenu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+                <div class="col-10 collapse navbar-collapse justify-content-center" id="kasemaNavMenu">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item menu-item">
+                            <a class="nav-link" href="#"> <i class="fas fa-fire"></i> أجدد العروض </a>
+                        </li>
+                        <li class="nav-item menu-item">
+                            <a class="nav-link" href="#"> <i class="fab fa-pagelines"></i> الصحة و الجمال </a>
+                        </li>
+                        <li class="nav-item menu-item">
+                            <a class="nav-link" href="#"> <i class="fas fa-car"></i> سيارات </a>
+                        </li>
+                        <li class="nav-item menu-item">
+                            <a class="nav-link" href="#"> <i class="fas fa-utensils"></i> مطاعم </a>
+                        </li>
+                        <li class="nav-item menu-item">
+                            <a class="nav-link" href="#"> <i class="fas fa-spa"></i> سبا </a>
+                        </li>
+                        <li class="nav-item menu-item">
+                            <a class="nav-link" href="#"> <i class="fas fa-bars"></i> جميع العروض </a>
+                        </li>
+                        <li class="nav-item menu-item">
+                            <a class="nav-link" href="#"> <i class="fas fa-tags"></i> آخرى </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </nav>
+            <!--            <span class="kasema_cart_count cart_product_counter d-block"></span>-->
+            <span class="kasema_cart_count cart_product_counter d-block"></span>
+            <div class="col-2" style="padding:0px; margin-top:15px;">
+                <button id="home-shopping-cart-button" type="button" class="btn btn-light " aria-haspopup="true" aria-expanded="false" data-offset="10,20">
+                    <i class="fas fa-shopping-cart" style="font-size: 25px; color:#007bff;"></i>
+                </button>
+            </div>
+
+            <div id="home-shopping-cart-area" class="row">
+                <div class="col-12 p-2">
+                    <a id="cart_close" href="#" class="home-shopCart-title text-left"> <i class="fas fa-times-circle"></i> </a>
+
+                    <div class="home-cart-element mt-2">
+                        <div id="smartcart"></div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- End Menu -->
+
+
+    <!-- Section -->
+
+
+    <div class="container">
+        <div class="innerProduct-breadcrumb d-block m-2">
+            <a href="">الرياض</a> / <a href="">الصحة</a> / جلسة تقشير الوجه بأحماض الفواكه
+        </div>
+    </div>
+    <div class="container">
+        <div class="row p-3">
+            <div class="col-md-8 col-xs-12 bg-w p-4">
+                <div class="innerProduct-title"> جلسة تقشير الوجه بأحماض الفواكه </div>
+                <div class="innerProduct-description">
+                    جدّدوا بشرتكم مع جلسة تقشير الوجه بأحماض الفواكه من مجمع عيادات الملز الطبي مقابل 99 ر .س. جدّدوا بشرتكم مع جلسة تقشير الوجه بأحماض الفواكه من مجمع عيادات الملز الطبي مقابل 99 ر .س.
+                </div>
+                <br>
+
+
+                
+
+                <div id="kasema-Product-carousel" class="owl-carousel owl-theme owl-loaded">
+                    <div class=" owl-stage-outer">
+                        <div class="owl-stage">
+                            <div class="owl-item">
+
+                                <img src="img/slider/1.png" class="innerProduct-img img-fluid">
+<!--                                                                <img class="img-owl-car d-block" src="img/slider/1.png">-->
+                            </div>
+
+                            <div class="owl-item">
+
+                                <img src="img/slider/1.png" class="innerProduct-img img-fluid">
+<!--                                                                <img class="img-owl-car d-block" src="img/slider/1.png">-->
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="owl-nav">
+                        <div class="owl-next2"> <i class="fas fa-arrow-right"></i> </div>
+                        <div class="owl-prev2"> <i class="fas fa-arrow-left"></i> </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+                <div class="innerProduct-feature border-dash mt-4 p-3">
+                    <div class="innerProduct-feature-title"> مميزات القسيمة: </div>
+                    <br>
+                    <div class="innerProduct-feature-items">
+
+                        <p> <i class="far fa-hand-point-left"></i> جدّدوا بشرتكم مع جلسة تقشير الوجه بأحماض الفواكه من مجمع عيادات الملز الطبي مقابل 99 ر .س </p>
+                        <p> <i class="far fa-hand-point-left"></i> نعومة وحيوية لشعرك مع علاج الشعر بالبروتين من صالون دار النوادر مقابل 299 ر .س. - يسري العرض على أي طول شعر</p>
+                        <p> <i class="far fa-hand-point-left"></i> العرض ساري للسيدات فقط </p>
+                    </div>
+
+
+                </div>
+
+                <div class="innerProduct-condotions border-dash mt-4 p-3">
+                    <div class="innerProduct-feature-title"> شروط القسيمة: </div>
+                    <br>
+                    <div class="innerProduct-feature-items">
+                        <p> <i class="fas fa-hand-point-left"></i> يسري العرض لمدة 45 يوماً من تاريخ الشراء</p>
+                        <p> <i class="fas fa-hand-point-left"></i> يسري العرض يومياً ما عدا يوم الجمعة</p>
+                        <p> <i class="fas fa-hand-point-left"></i> مواعيد العمل: من الساعة 4:30 عصراً وحتى الساعة 9:30 مساءً</p>
+                        <p> <i class="fas fa-hand-point-left"></i> يسري العرض للرجال والسيدات فقط</p>
+                        <p> <i class="fas fa-hand-point-left"></i> يشترط الحجز المسبق، الأولوية للحجوزات المبكرة</p>
+                        <p> <i class="fas fa-hand-point-left"></i> للاستعلام الرجاء الاتصال على الرقم: 966546486135+ (د. أحمد البلاح)</p>
+                        <p> <i class="fas fa-hand-point-left"></i> الرجاء الوصول بالوقت المحدد، وإلا ستعتبر القسيمة لاغية – يتم تحديد موعد جديد</p>
+                        <p> <i class="fas fa-hand-point-left"></i> ممنوع إصطحاب الأطفال منعا تاما ولا تقدم الخدمة في حالة إصطحابهم </p>
+                    </div>
+
+
+                </div>
+
+                <div class="innerProduct-condotions border-dash mt-4 p-3">
+                    <div class="innerProduct-feature-title"> معلومات المشترك : </div>
+                    <br>
+                    <div class="innerProduct-feature-items">
+                        <div class="row">
+                            <div class="col-6">
+                                <p class="innerProduct-vendor-title"> "مجمع عيادات الملز الطبي" </p>
+                                <p> الهاتف: 01284592887 </p>
+                                <p> المدينة: الرياض </p>
+                                <p> العنوان: 25 شارع الملك سلمان </p>
+                            </div>
+                            <div class="col-6"> هنا الموقع </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+            <!--            <div class="addthis_inline_share_toolbox"></div>-->
+
+            <div class="col-md-3 col-xs-12 ">
+                <div class="row">
+                    <div class="left-product-bar col-12 bg-w p-4">
+
+                        <div class="">
+
+
+                            <div class="sc-product-item thumbnail">
+                                <div class="caption">
+                                    <h4 class="text-center"> خيارات القسيمة </h4>
+                                    <!--                <br>-->
+
+
+                                    <div class="form-group">
+                                        <br />
+                                        <label class="radio-inline">
+                                            <input type="hidden" name="product_desc" value="الخيار الأول: 3 طبقات​ نانو سيراميك لحماية الهيكل وطبقة واحدة للزجاج الأمامي للسيارات الصغيرة والمتوسطة">
+                                            <p class="d-inline"> الخيار الأول: 3 طبقات​ نانو سيراميك لحماية الهيكل وطبقة واحدة للزجاج الأمامي للسيارات الصغيرة والمتوسطة </p>
+                                            <br>
+                                            <input class="sc-cart-item-qty" name="product_quantity" min="0" value="0" type="number">
+
+
+<!--
+                                            
+<div class="def-number-input number-input safari_only">
+  <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"></button>
+  <input id="product_quantity" class="sc-cart-item-qty quantity" min="0" name="quantity" value="1" type="number">
+  <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
+</div>
+-->
+
+
+
+                                            <strong class="price pull-left" style="font-size:20px;"> 250 ر.س </strong>
+                                            <br>
+                                            <del class="d-inline"> 250 ر.س </del>
+                                            <p class="product-option-discount-padge d-inline"> خصم 55% </p>
+                                        </label>
+                                        <hr class="line">
+
+
+                                        <label class="radio-inline">
+                                            <input type="hidden" name="product_desc" value="الخيار الثاني: بوفيه فطور لشخص بالغ">
+                                            <p class="d-inline"> الخيار الثاني: بوفيه فطور لشخص بالغ </p>
+                                            <br>
+                                            <input class="sc-cart-item-qty" name="product_quantity" min="0" value="0" type="number">
+                                            <strong class="price pull-left" style="font-size:20px;"> 250 ر.س </strong>
+                                            <br>
+                                            <del class="d-inline"> 250 ر.س </del>
+                                            <p class="product-option-discount-padge d-inline"> خصم 20% </p>
+                                        </label>
+                                        <hr class="line">
+
+
+<!--
+                                        
+                    <label class="radio-inline">
+                    <input id="kasema_option22" type="hidden" name="product_desc" value="الخيار الثاني: بوفيه فطور مفتوح لطفل ">
+                    <p class="d-inline"> الخيار الثاني: بوفيه فطور مفتوح لطفل </p>
+                        <br>
+                    <input id="kasema_option22" class="sc-cart-item-qty" name="product_quantity" min="0" value="0" type="number">
+                    <strong class="price pull-left" style="font-size:20px;"> 250 ر.س </strong>
+                        <br>
+                    <del class="d-inline"> 250 ر.س </del>
+                    <p class="product-option-discount-padge d-inline" > خصم 20% </p>
+                    </label>
+
+-->
+
+
+                                    </div>
+                                    <div>
+                                        <!--                    <input class="sc-cart-item-qty" name="product_quantity" min="0" value="0" type="number">-->
+                                        <input name="product_price" value="250" type="hidden" />
+                                        <input name="product_id" value="12" type="hidden" />
+
+
+                                    </div>
+
+
+                                    <br>
+                                    <input type="button" class="kasema_cart btn btn-success btn-sm btn-block" value="أضف للسلة ">
+                                    <input type="button" class="kasema_buy_now btn btn-warning btn-sm btn-block" value=" شراء مباشرة ">
+                                </div>
+                            </div>
+
+
+
+
+
+
+
+
+
+
+                        </div>
+
+
+                        <br>
+
+
+
+                        <aside class="col-md-12">
+                            <!-- Paypal Submit URL : https://www.paypal.com/cgi-bin/webscr -->
+                            <!-- Paypal Sandbox Submit URL: https://www.sandbox.paypal.com/cgi-bin/webscr -->
+
+                            <!-- Paypal Cart submit form -->
+                            <form action="https://www.paypal.com/cgi-bin/webscr" method="POST">
+                                <!-- SmartCart element -->
+                                <!--                                <div id="smartcart"></div>-->
+
+                                <!-- Paypal required info, Please update based on your details -->
+                                <input name="business" value="dipumedayil@gmail.com" type="hidden">
+                                <input name="currency_code" value="USD" type="hidden">
+                                <input name="return" value="http://www.yourdomain.com/yoursuccessurl" type="hidden">
+                                <input name="cancel_return" value="http://www.yourdomain.com/yourcancelurl" type="hidden">
+                                <input name="cmd" value="_cart" type="hidden">
+                                <input name="upload" value="1" type="hidden">
+                            </form>
+                        </aside>
+
+
+
+
+
+
+
+
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+    <div class="container  mt-3">
+        <div class="row">
+
+            <div class="section-products-title">
+                <i class="fas fa-tags d-inline"></i>
+                <p class="d-inline" style="font-family: 'ElMessiri_bold';"> منتجات آخرى للمشترك </p>
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="col-12">
+                <div class="kasema-vendorProducts-carousel owl-carousel owl-theme owl-loaded">
+                    <div class="owl-stage-outer fix-width-problem">
+                        <div class="owl-stage">
+
+                            <div class="owl-item">
+                                <div class="card product-card">
+                                    <img src="img/slider/1.png" class="product-img">
+                                    <div class="card-body">
+                                        <div class="card-title product-title"> جلسة تقشير الوجه بأحماض الفواكة </div>
+                                        <div class="card-text">
+
+                                            مجمع عيادات الملز الطبي
+
+                                        </div>
+                                        <div class="product-discount"> خصم %20 </div>
+                                        <div class="all-price">
+                                            <div class="product-price"> 20 ر.س </div>
+                                            <del class="product-price-disc" style="font-size:20px;"> 30 ر.س </del>
+                                        </div>
+                                        <a href="#" class="product-button btn btn-block"> عرض القسيمة </a>
+                                    </div>
+
+                                </div>
+
+
+
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Section -->
+
+
+    <!-- Start Footer -->
+
+    <div class="footer">
+        <div class="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <ul class="list-unstyled links-list text-right text-center-mobile">
+                            <li><a href="#"> الشروط و الخصوصية </a></li>
+                            <li><a href="#"> ما هو قسيمة </a></li>
+                            <li><a href="#"> اسئلة مكرره </a></li>
+                            <li><a href="#"> أشترك معنا </a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-5 pay-foo">
+                        <p class="text-center text-center-mobile"> بإمكانك الدفع ببطاقات فيزا و ماستر كارد و بطاقات مدى </p>
+                        <ul class="text-center text-center-mobile">
+                            <img src="img/visa.png" class="footer-payment img-fluid" width="70" height="70">
+                            <img src="img/paypal.png" class="footer-payment img-fluid" width="70" height="70">
+                            <img src="img/mastercard.png" class="footer-payment img-fluid" width="70" height="70">
+
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="ministry-logo"><img src="img/kasema_white_logo.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright text-center">
+
+            <a href="#" class="footer-icon"><i class="fab fa-facebook-square"></i></a>
+            <a href="#" class="footer-icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="footer-icon"><i class="fab fa-twitter-square"></i></a>
+
+        </div>
+        <div class="text-center p-2">جميع الحقوق محفوظة لموقع قسيمة 2019</div>
+    </div>
+
+    <!-- End Footer -->
+
+
+
+
+
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/js.js"></script>
+
+
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+    <!--<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5dc74fee01e27c52"></script>-->
+
+    <script src="js/jquery.smartCart.min.js"></script>
+
+
+
+    <script>
+        $('.kasema-vendorProducts-carousel').owlCarousel({
+            rtl: true,
+            items: 3,
+            loop: true,
+            margin: 50,
+            nav: false,
+            dots: true,
+            responsive: {
+                0: {
+                    items: 1,
+                },
+                600: {
+                    items: 2,
+                },
+                1000: {
+                    items: 3,
+                }
+            },
+
+        });
+
+    </script>
+
+    <script>
+        $('#kasema-Product-carousel').owlCarousel({
+            rtl: true,
+            items: 1,
+            loop: true,
+            margin: 1,
+            nav: true,
+            dots: true,
+            navText: [$('.owl-next2'), $('.owl-prev2')],
+            autoplay: true,
+            autoplayTimeout: 4000,
+            autoplayHoverPause: true,
+
+        });
+
+    </script>
+
+    <script>
+        // Cart
+
+        $(document).ready(function() {
+
+            $("#home-shopping-cart-button").click(function() {
+                $("#home-shopping-cart-area").toggle(500);
+            });
+            $("#cart_close").click(function() {
+                $("#home-shopping-cart-area").toggle(500);
+            });
+
+
+
+            //            $(!"#home-shopping-cart-button").on('click', function() {
+            //
+            //                $("#home-shopping-cart-area").toggle(500);
+            //
+            //            });
+
+
+        });
+
+    </script>
+
+    <script>
+        $('#smartcart').smartCart({
+
+
+            cart: [{
+                    "product_id": "13",
+                    "product_desc": "الخيار الأول: 3 طبقات​ نانو سيراميك لحماية الهيكل وطبقة واحدة للزجاج الأمامي للسيارات الصغيرة والمتوسطة",
+                    "product_quantity": "0",
+                    "product_price": "250",
+                    "unique_key": 1573736704987
+                },
+                {
+                    "product_id": "12",
+                    "product_desc": "الخيار الثالث: بوفيه فطور لشخص بالغ",
+                    "product_quantity": "0",
+                    "product_price": "520",
+                    "unique_key": 1573736710692
+                }
+            ],
+
+            paramSettings: {
+                productPrice: 'product_price',
+                productQuantity: 'product_quantity',
+                productName: 'product_name',
+                productId: 'product_id',
+                productDesc: 'product_desc',
+                optionId: 'option_id',
+            },
+
+            resultName: 'cart_list',
+            addCartSelector: '.kasema_cart',
+            cartItemTemplate: '<img class="img-responsive pull-right ml-3" src="img/slider/1.png" /><p class="list-group-item-text">{product_desc}</p>',
+            lang: {
+                cartTitle: "عربة التسوق",
+                checkout: 'إنهاء الطلب',
+                clear: 'إلغاء الكل',
+                subtotal: 'الإجمالي:',
+                cartRemove: '×',
+                cartEmpty: 'عربة التسوق فارغة!<br />إختر قسائمك'
+            },
+
+
+
+            currencySettings: {
+                locales: 'ar-SU',
+                currencyOptions: {
+                    style: 'currency',
+                    currency: 'SAR',
+                    currencyDisplay: 'symbol'
+                },
+            },
+
+
+        });
+
+        $("#smartcart").on("itemAdded", function(e) {
+
+            //            if (productQuantity > 0) {
+            //                $("#home-shopping-cart-area").toggle(500);
+            //            };
+
+            $("#home-shopping-cart-area").toggle(500);
+        });
+
+        $("#smartcart").on("itemUpdated", function(e) {
+
+            $("#home-shopping-cart-area").toggle(500);
+
+        });
+
+    </script>
+    <script>
+        $(document).ready(function() {
+
+            $(".kasema_cart_count").text($(".sc-cart-count").text());
+
+            $(".kasema_cart").click(function() {
+                $(".kasema_cart_count").text($(".sc-cart-count").text());
+            });
+
+            $(".sc-cart-remove").click(function() {
+                setTimeout(function() {
+                    $(".kasema_cart_count").text($(".sc-cart-count").text(), );
+                }, 500);
+
+            });
+            $(".sc-cart-clear").click(function() {
+                setTimeout(function() {
+                    $(".kasema_cart_count").text($(".sc-cart-count").text(), );
+                }, 500);
+            });
+
+
+
+
+
+
+
+            //
+            //                if ($(".kasema_cart_count").text() > 0) {
+            //                    
+            //
+            //          $(".kasema_cart_count").addClass('cart_product_counter d-block') 
+            //                    
+            //                } else {
+            //                      $(".kasema_cart_count").removeClass('cart_product_counter d-block')
+            //                }
+
+
+
+
+        });
+
+    </script>
+
+ 
+
+
+
+
+
+</body>
+
+</html>

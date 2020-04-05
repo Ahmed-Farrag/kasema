@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title> قسيمة - منتجات المشترك </title>
+
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-rtl.min.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/flag-icon.min.css">
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="css/ekko-lightbox.css">
+
+    <link href="css/bootstrap-toggle.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/4.3.0/dropzone.css">
+
+    <link href="css/custom-style.css" rel="stylesheet">
+
+
+
+
+</head>
+
+<body>
+    <!-- Start Navbar -->
+    <div class="upper-nav">
+        <div class="container-fluid">
+            <div class="row">
+
+                <div class="col-md-6 d-none d-md-block text-center  ">
+                    <a class=" btn btn-primary">من نحن </a>
+                    <a class=" btn btn-primary"> طرق الدفع </a>
+                    <a class=" btn btn-primary "> تواصل معنا </a>
+                </div>
+
+                <div class="col-md-6 text-center  ">
+                    <form class=" form-inline  d-inline ">
+                        <input id="search-nav-input" class=" form-control" type="search" placeholder=" البحث في الموقع " aria-label=" البحث في الموقع ">
+                        <button class="btn" type="submit"> <i class="fas fa-search"></i> </button>
+                    </form>
+
+                    <div class="btn-group d-inline">
+                        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="far fa-user-circle"></i> حسابي
+                        </button>
+                        <div class="dropdown-menu text-right">
+                            <a class="dropdown-item" href="#"> <i class="fas fa-table"></i> طلباتي </a>
+                            <a class="dropdown-item" href="#"> <i class="fas fa-address-book"></i> بياناتي </a>
+                            <a class="dropdown-item" href="#"> <i class="fas fa-wallet"></i> الماليات</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#" style="color:red;"> <i class="fas fa-door-open"></i> تسجيل الخروج</a>
+                        </div>
+                    </div>
+
+
+
+
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <!-- End Navbar -->
+    <!-- Start Advertise -->
+    <div class="text-center mb-2">
+        <img src="img/leaderboardar.jpg" class="img-fluid">
+    </div>
+    <!-- End Advertise -->
+
+    <!-- Start Menu -->
+    <div class="container-fluid">
+        <div class="bg-w row">
+
+            <nav class="col navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">
+                    <img src="img/kasema.png" width="140" height="50" alt="">
+                </a>
+
+
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#kasemaNavMenu" aria-controls="kasemaNavMenu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+                <div class="col-10 collapse navbar-collapse justify-content-center" id="kasemaNavMenu">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item menu-item">
+                            <a class="nav-link" href="#"> <i class="fas fa-fire"></i> أجدد العروض </a>
+                        </li>
+                        <li class="nav-item menu-item">
+                            <a class="nav-link" href="#"> <i class="fab fa-pagelines"></i> الصحة و الجمال </a>
+                        </li>
+                        <li class="nav-item menu-item">
+                            <a class="nav-link" href="#"> <i class="fas fa-car"></i> سيارات </a>
+                        </li>
+                        <li class="nav-item menu-item">
+                            <a class="nav-link" href="#"> <i class="fas fa-utensils"></i> مطاعم </a>
+                        </li>
+                        <li class="nav-item menu-item">
+                            <a class="nav-link" href="#"> <i class="fas fa-spa"></i> سبا </a>
+                        </li>
+                        <li class="nav-item menu-item">
+                            <a class="nav-link" href="#"> <i class="fas fa-bars"></i> جميع العروض </a>
+                        </li>
+                        <li class="nav-item menu-item">
+                            <a class="nav-link" href="#"> <i class="fas fa-tags"></i> آخرى </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </nav>
+            <div class="col-2" style="padding:0px; margin-top:15px;">
+                <button id="home-shopping-cart-button" type="button" class="btn btn-light " aria-haspopup="true" aria-expanded="false" data-offset="10,20">
+                    <i class="fas fa-shopping-cart" style="font-size: 25px; color:#007bff;"></i>
+                </button>
+            </div>
+
+            <div id="home-shopping-cart-area" class="row">
+                <div class="col-12 p-2">
+                    <a id="cart_close" href="#" class="home-shopCart-title text-left"> <i class="fas fa-times-circle"></i> </a>
+
+
+
+                    <div class="home-cart-element mt-2">
+
+                        <div id="smartcart"></div>
+
+
+                        <span name="cart_list" class="sc-cart-count badge"></span>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- End Menu -->
+
+
+    <!-- Section -->
+
+
+    <div class="container">
+        <div class="row m-4 text-center">
+            <div class="user_menu col mt-4">
+                <a href="#" class=" btn btn-outline-primary font-weight-bold "> الطلبات </a>
+                <a href="#" class=" btn btn-primary font-weight-bold "> القسائم </a>
+                <a href="#" class=" btn btn-outline-primary font-weight-bold "> البيانات </a>
+                <a href="#" class=" btn btn-outline-primary font-weight-bold "> الماليات </a>
+            </div>
+        </div>
+        <div class="row mt-5">
+
+
+
+
+
+
+
+
+
+
+            <form role="form" method="POST" action="admin/products/newProduct/store" enctype="multipart/form-data">
+
+                <section class="content row" style="margin:5px;">
+
+                    <div class="col-9">
+
+                        <div class="card card-primary">
+                            <div class="card-header">
+                                <h3 class="card-title">قسيمة جديدة</h3>
+                            </div>
+                            <!-- /.card-header -->
+
+                            <!-- form start -->
+
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="form-group col-12">
+                                        <label for="kasema_name"> عنوان القسيمة </label>
+                                        <input type="text" class="form-control" name="name" placeholder=" إدخل عنوان القسيمة">
+                                    </div>
+                                    <div class="form-group col-12">
+                                        <label for="exampleInputEmail1"> الرابط </label>
+                                        <div class="row m-0">
+                                            <input type="text" id="kasema_slug" class="form-control col-9" name="slug" placeholder="يتم إدخال عنوان القسيمة تلقائياً">
+                                            <label for="kasema_slug" class="col-3" style="margin-top:6px;"> /kasema.com/ar/food</label>
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-4">
+                                        <label for="kasema_price"> السعر قبل التخفيض </label>
+                                        <input id="kasema_price" type="text" class="form-control " name="price" placeholder="السعر قبل التخفيض">
+                                    </div>
+
+                                    <div class="form-group col-4">
+                                        <label for="kasema_offer"> نسبة الخصم </label>
+                                        <div class="input-group ">
+                                            <input id="kasema_offer" type="text" class="form-control " name="offer" placeholder="نسبة الخصم">
+                                            <div class="input-group-append">
+                                                <span class="input-group-text">%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group col-4">
+                                        <label for="kasema_disc"> السعر النهائي </label>
+                                        <div class="input-group ">
+                                            <input id="kasema_disc" type="text" class="form-control " name="disc" placeholder="السعر النهائي">
+                                            <div class="input-group-append">
+                                                <span class="input-group-text"> ر.س </span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group col-12">
+                                        <label> وصف القسيمة </label>
+                                        <textarea name="desc" class="form-control" rows="3" placeholder="إدخل وصف مبسط للقسمية"></textarea>
+                                    </div>
+
+                                    <div class="form-group col-12">
+                                        <label> مميزات القسيمة </label>
+                                        <textarea name="feat" class="form-control" rows="6" placeholder="إدخل مميزات القسيمة"></textarea>
+                                    </div>
+                                    <div class="form-group col-12">
+                                        <label> شروط القسيمة </label>
+                                        <textarea name="cond" class="form-control" rows="6" placeholder="إدخل شروط القسيمة"></textarea>
+                                    </div>
+
+                                    <div class="form-group col-12">
+                                        <label> أضف خيارات للقسيمة </label>
+                                        <div class="row">
+                                            <input type="text" class="form-control col-7" name="option_name[]" placeholder=" إدخل الخيار ">
+                                            <input type="text" class="form-control col-1" name="option_price[]" placeholder=" السعر">
+                                            <input type="text" class="form-control col-1" name="option_offer[]" placeholder=" النسبة">
+                                            <div class="input-group-append">
+                                                <span class="input-group-text">%</span>
+                                            </div>
+                                            <input type="text" class="form-control col-1" name="option_disc[]" placeholder=" النهائي">
+                                            <div class="input-group-append">
+                                                <span class="input-group-text">ر.س</span>
+                                            </div>
+                                        </div>
+                                        <i class="fa fa-plus imgAdd"></i>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+
+                            <div class="card-footer">
+                                <button type="submit" class="btn btn-primary" onClick="submitForms()"> حفظ </button>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="col-3">
+                        <div class="card card-primary">
+                            <div class="card-header">
+                                <h3 class="card-title"> </h3>
+                            </div>
+
+                            <div class="card-body">
+                                <div class="form-group">
+                                    <label> المدينة </label>
+                                    <select name="city_id" class="form-control">
+                                        @foreach($cities as $city)
+                                        <option value="{{ $city->id }}">{{ $city->name }}</option>
+                                        @endforeach
+                                    </select>
+                                </div>
+
+                                <div class="form-group">
+                                    <label> التصنيف </label>
+                                    <select name="category_id" class="form-control">
+                                        @foreach($categories as $category)
+                                        <option value="{{ $category->id }}"> {{ $category->name }} </option>
+
+                                        @endforeach
+                                    </select>
+                                </div>
+
+
+                                <div class="form-group">
+                                    <label>صورة القسيمة الرئيسية</label>
+                                    <div class="input-group">
+                                        <span class="input-group-btn">
+                                            <span class="btn btn-primary btn-file">
+                                                إستعرض <input name="kasema_img" type="file" id="file" accept="image/*">
+                                            </span>
+                                        </span>
+                                        <input type="text" class="form-control" readonly>
+                                    </div>
+                                    <img id='img-upload' />
+                                </div>
+
+
+                                <div class="form-group">
+                                    <label> عارض صور القسيمة </label>
+                                    <div class="dropzone needsclick dz-clickable" id="imageUpload">
+                                        <div class="dz-message needsclick">
+                                            اسحب الصور هنا<br>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </section>
+            </form>
+
+
+
+
+
+
+
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- Section -->
+
+
+    <!-- Start Footer -->
+
+    <div class="footer">
+        <div class="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <ul class="list-unstyled links-list text-right text-center-mobile">
+                            <li><a href="#"> الشروط و الخصوصية </a></li>
+                            <li><a href="#"> ما هو قسيمة </a></li>
+                            <li><a href="#"> اسئلة مكرره </a></li>
+                            <li><a href="#"> أشترك معنا </a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-5 pay-foo">
+                        <p class="text-center text-center-mobile"> بإمكانك الدفع ببطاقات فيزا و ماستر كارد و بطاقات مدى </p>
+                        <ul class="text-center text-center-mobile">
+                            <img src="img/visa.png" class="footer-payment img-fluid" width="70" height="70">
+                            <img src="img/paypal.png" class="footer-payment img-fluid" width="70" height="70">
+                            <img src="img/mastercard.png" class="footer-payment img-fluid" width="70" height="70">
+
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="ministry-logo"><img src="img/kasema_white_logo.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright text-center">
+
+            <a href="#" class="footer-icon"><i class="fab fa-facebook-square"></i></a>
+            <a href="#" class="footer-icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="footer-icon"><i class="fab fa-twitter-square"></i></a>
+
+        </div>
+        <div class="text-center p-2">جميع الحقوق محفوظة لموقع قسيمة 2019</div>
+    </div>
+
+    <!-- End Footer -->
+
+
+
+
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/js.js"></script>
+
+    <script src="js/owl.carousel.min.js"></script>
+
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+    <!--<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5dc74fee01e27c52"></script>-->
+
+    <script src="js/ekko-lightbox.min.js"></script>
+    <script src="js/ekko-lightbox.min.js.map"></script>
+
+    <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/4.3.0/dropzone.js"></script>
+
+
+
+
+
+
+    <script>
+        // Cart
+
+        $(document).ready(function() {
+
+            $("#home-shopping-cart-button").click(function() {
+                $("#home-shopping-cart-area").toggle(500);
+            });
+            $("#cart_close").click(function() {
+                $("#home-shopping-cart-area").toggle(500);
+            });
+
+
+
+            //            $(!"#home-shopping-cart-button").on('click', function() {
+            //
+            //                $("#home-shopping-cart-area").toggle(500);
+            //
+            //            });
+
+
+        });
+
+    </script>
+
+    <script>
+        $('#smartcart').smartCart({
+
+
+            cart: [{
+                    "product_id": "12",
+                    "product_desc": "الخيار الأول: 3 طبقات​ نانو سيراميك لحماية الهيكل وطبقة واحدة للزجاج الأمامي للسيارات الصغيرة والمتوسطة",
+                    "product_quantity": "0",
+                    "product_price": "250",
+                    "unique_key": 1573736704987
+                },
+                {
+                    "product_id": "12",
+                    "product_desc": "الخيار الأول: بوفيه فطور لشخص بالغ",
+                    "product_quantity": "0",
+                    "product_price": "520",
+                    "unique_key": 1573736710692
+                }
+            ],
+
+            paramSettings: {
+                productPrice: 'product_price',
+                productQuantity: 'product_quantity',
+                productName: 'product_name',
+                productId: 'product_id',
+                productDesc: 'product_desc',
+                optionId: 'option_id',
+            },
+
+            resultName: 'cart_list',
+            addCartSelector: '.kasema_cart',
+            cartItemTemplate: '<img class="img-responsive pull-right ml-3" src="img/slider/1.png" /><p class="list-group-item-text">{product_desc}</p>',
+            lang: {
+                cartTitle: "عربة التسوق",
+                checkout: 'إنهاء الطلب',
+                clear: 'إلغاء الكل',
+                subtotal: 'الإجمالي:',
+                cartRemove: '×',
+                cartEmpty: 'عربة التسوق فارغة!<br />إختر قسائمك'
+            },
+
+
+
+            currencySettings: {
+                locales: 'ar-SU',
+                currencyOptions: {
+                    style: 'currency',
+                    currency: 'SAR',
+                    currencyDisplay: 'symbol'
+                },
+            },
+
+
+        });
+
+        $("#smartcart").on("itemAdded", function(e) {
+            //
+            //            if (productQuantity > 0){
+            //            $("#home-shopping-cart-area").toggle(500);
+            //            };
+
+            $("#home-shopping-cart-area").toggle(500);
+        });
+
+        $("#smartcart").on("itemUpdated", function(e) {
+
+            $("#home-shopping-cart-area").toggle(500);
+
+        });
+
+    </script>
+
+
+    <script>
+        // Ekko Lighbox
+        $(function() {
+            $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+                event.preventDefault();
+                $(this).ekkoLightbox({
+                    alwaysShowClose: true
+                });
+            });
+
+            $('.filter-container').filterizr({
+                gutterPixels: 3
+            });
+            $('.btn[data-filter]').on('click', function() {
+                $('.btn[data-filter]').removeClass('active');
+                $(this).addClass('active');
+            });
+        });
+
+    </script>
+    <script>
+        Dropzone.options.imageUpload = {
+            paramName: 'kasemaSlider',
+            url: 'http://localhost/cobone/public/admin/products/newProduct/store',
+            addRemoveLinks: true,
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+            },
+            withCredentials: true,
+
+        };
+
+    </script>
+
+
+    <script>
+        // أضف خيار آخر
+        $(".imgAdd").click(function() {
+            $(this).closest(".row").find('.imgAdd').before('<div class="row"><input type="text" class="form-control col-8" name="option_name[]" placeholder=" إدخل الخيار "><input type="text" class="form-control col-1" name="option_price[]" placeholder=" السعر" ><input type="text" class="form-control col-1" name="option_offer[]" placeholder=" النسبة"><input type="text" class="form-control col-1" name="option_disc[]" placeholder=" النهائي" ><i class="fa fa-times del col-1"></i></div>');
+        });
+
+        $(document).on("click", "i.del", function() {
+            $(this).parent().remove();
+        });
+
+
+        // Option Price Calculator
+        $(function() {
+
+            $('#kasema_price').on('input', function() {
+                calculate();
+            });
+            $('#kasema_offer').on('input', function() {
+                calculate();
+            });
+
+            function calculatee() {
+                var price = parseInt($('#kasema_price').val());
+                var offer = parseInt($('#kasema_offer').val());
+                var disc = "";
+                if (isNaN(price) || isNaN(offer)) {
+                    disc = " ";
+                } else {
+                    disc = ((price * offer) / 100);
+                }
+
+                $('#kasema_disc').val(disc);
+            }
+
+        });
+
+    </script>
+
+
+
+</body>
+
+</html>

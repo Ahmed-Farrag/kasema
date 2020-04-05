@@ -1,0 +1,1030 @@
+/*
+
+
+Blue : #007bff
+White: #f8f9fa
+Gray: #e5e5e5
+Green: #91c848
+
+*/
+
+@font-face {
+    font-family: 'ElMessiri';
+    src: url('../fonts/ElMessiri-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'ElMessiri_bold';
+    src: url('../fonts/ElMessiri-Bold.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'ElMessiri';
+}
+
+body {
+    background-color: #e5e5e5 !important;
+    z-index: 1;
+}
+
+.red {
+    background-color: red;
+}
+
+
+
+/* Start Upper Navbar */
+.upper-nav {
+    background-color: #007bff;
+    color: #FFF;
+    padding: 1px;
+}
+
+#search-nav-input {
+    z-index: -1 !important;
+    height: 30px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-bottom: 1px solid white;
+    display: inline !important;
+    width: 40% !important;
+    font-family: 'ElMessiri_bold';
+}
+
+#search-nav-input::placeholder {
+    color: #e5e5e5;
+    font-family: 'ElMessiri';
+    font-size: 14px;
+
+}
+
+/* End Upper Navbar */
+
+/* Start MENU */
+
+.menu-item {
+    font-size: 20px;
+    margin-right: 7px;
+}
+
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+
+.bg-w {
+    background-color: #f8f9fa !important;
+}
+
+.bg-r {
+    background-color: red !important;
+}
+
+.bg-none {
+    background: none !important;
+}
+
+
+/* Cart */
+#home-shopping-cart-area {
+    display: none;
+    /*
+    width:auto;
+    height:auto;
+*/
+    border: solid 1px #007bff;
+    border-radius: 5px;
+    background: #fff;
+    margin: 20px;
+    position: absolute;
+    z-index: 5;
+    left: 10px;
+    margin-top: 70px;
+    width: 400px;
+}
+
+.home-shopCart-title:hover {
+    color: red;
+}
+
+.home-cart-element:hover {
+    background-color: #f8f9fa;
+}
+
+
+
+.home-cart-img {
+    display: inline-block;
+    width: 30%;
+    border-radius: 5px;
+}
+
+.home-cart-title {
+    position: absolute;
+    right: 35%;
+    margin-left: 25px;
+}
+
+.home-cart-discount-price {
+    position: absolute;
+    right: 35%;
+    margin-top: 40px;
+    font-size: 20px;
+    font-family: 'ElMessiri_bold';
+
+}
+
+.home-cart-delete {
+    position: absolute;
+    left: 20px;
+    font-size: 20px;
+
+
+}
+
+.home-cart-delete:hover {
+    color: red;
+}
+
+
+
+
+/* Cart */
+/* End MENU */
+
+
+
+/* HOME PAGE */
+/* Start Header */
+
+
+/* Header Right Carousel */
+
+body > div.container > div > div.col-md-8.col-xs-12 > div > div:nth-child(3) > button.owl-prev {
+
+    position: absolute;
+    top: 40%;
+    right: 0;
+}
+
+body > div.container > div > div.col-md-8.col-xs-12 > div > div:nth-child(3) > button.owl-next {
+
+    position: absolute;
+    top: 40%;
+    left: 0;
+}
+
+body > div.container.p-3 > div > div.col-md-8.col-xs-12 > div > div.owl-stage-outer {
+    border-radius: 50px;
+}
+
+.black-layer-owl-car {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 500px;
+    z-index: 1;
+}
+
+.img-owl-car {
+
+    position: relative;
+    z-index: 0;
+
+}
+
+.safka1 {
+    position: absolute;
+    z-index: 3;
+    color: white;
+    font-family: 'ElMessiri_bold';
+    font-size: 2.3vw;
+    padding: 30px;
+    /*    border-bottom: .5vw solid #91c848;*/
+}
+
+.dashed_owl {
+    position: absolute;
+    z-index: 3;
+    color: #91c848;
+    font-family: 'ElMessiri_bold';
+    font-size: 3vw;
+    padding: 30px;
+}
+
+.discount-owl {
+    position: absolute;
+    z-index: 3;
+    color: white !important;
+    font-family: 'ElMessiri_bold';
+    font-size: 1.5vw;
+    padding: 8px;
+    margin-top: 5%;
+    border: 1px solid #007bff;
+    background-color: #007bff;
+    left: 0px;
+}
+
+.descrip-owl {
+    position: absolute;
+    z-index: 3;
+    color: white;
+    font-family: 'ElMessiri_bold';
+    font-size: 2.3vw;
+    padding: 30px;
+    padding-right: 50px;
+    margin-top: 70px;
+    /*    background-color: red;*/
+    width: 80%;
+}
+
+
+.price-owl {
+    position: absolute;
+    z-index: 3;
+    color: white;
+    font-family: 'ElMessiri_bold';
+    font-size: 2.3vw;
+    padding: 30px;
+    padding-right: 100px;
+    margin-top: 48%;
+    /*    background-color: red;*/
+}
+
+.disount-price-owl {
+    font-size: 1.5vw;
+    display: block;
+}
+
+.kasema-button-owl {
+    position: absolute;
+    z-index: 3;
+    color: white !important;
+    font-family: 'ElMessiri_bold';
+    font-size: 1.5vw;
+    padding: 8px;
+    margin-top: 52%;
+    left: 100px;
+    border: 1px solid #91c848;
+    border-radius: 10px;
+    background-color: #91c848;
+}
+
+.kasema-button-owl:hover {
+    text-decoration: none;
+}
+
+body > div.container.p-3 > div > div.col-md-8.col-xs-12 > div > div:nth-child(3) > button.owl-prev > div,
+body > div.container.p-3 > div > div.col-md-8.col-xs-12 > div > div:nth-child(3) > button.owl-next > div, .owl-next2, #kasema-Product-carousel > div:nth-child(3) > button.owl-next, .owl-prev2{
+    background: none !important;
+}
+
+
+body > div.container.p-3 > div > div.col-md-8.col-xs-12 > div > div:nth-child(3) > button.owl-prev > div:hover,
+body > div.container.p-3 > div > div.col-md-8.col-xs-12 > div > div:nth-child(3) > button.owl-next > div:hover, owl-prev2:hover {
+    background: none !important;
+}
+
+body > div.container.p-3 > div > div.col-md-8.col-xs-12 > div > div:nth-child(3) > button.owl-next:hover,
+body > div.container.p-3 > div > div.col-md-8.col-xs-12 > div > div:nth-child(3) > button.owl-prev:hover ,
+#kasema-Product-carousel > div:nth-child(3) > button.owl-prev:hover{
+
+    background: none !important;
+
+}
+
+#kasema-header-right-carousel > div.owl-dots {
+    position: absolute;
+    z-index: 3;
+    bottom: 8px;
+    right: 45%;
+
+}
+
+/* Header Right Carousel */
+
+/* Header Left Carousel */
+
+#kasema-header-left-carousel {
+    margin-top: 10px;
+}
+
+.feature-product {
+
+    position: absolute;
+    z-index: 3;
+    color: grey;
+    font-family: 'ElMessiri_bold';
+    font-size: 20px;
+    top: 5px;
+}
+
+.dashed_feature-product {
+    position: absolute;
+    z-index: 3;
+    color: #91c848;
+    font-family: 'ElMessiri_bold';
+    font-size: 40px;
+
+}
+
+.left-carousel-img {
+    display: inline-block !important;
+    width: 50% !important;
+    border-radius: 20px;
+}
+
+.left-carousel-title {
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    margin-right: 10px;
+    font-size: 15px;
+    font-family: 'ElMessiri_bold';
+}
+
+.left-carousel-all-price {
+    display: block;
+    position: absolute;
+    font-size: 15px;
+    font-family: 'ElMessiri_bold';
+    margin-top: -5px;
+    left: 2px;
+    bottom: -2px;
+}
+
+.left-carousel-discount-price {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.left-carousel-price {
+    display: inline-block;
+}
+
+.left-carousel-discount {
+    display: block;
+    background-color: #007bff;
+    position: absolute;
+    top: 60px;
+    color: white;
+    padding: 5px;
+    font-size: 1vw;
+    ;
+    height: auto;
+}
+
+
+
+
+
+/* Header Left Carousel */
+/* End Header */
+
+/* Start Products */
+
+.section-products-title {
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.kasema-products-carousel {
+    padding: 15px !important;
+}
+
+.fix-width-problem {
+    width: 102% !important;
+
+}
+
+.product-img {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: -5px 10px 5px #007bff;
+}
+
+.product-title {
+
+    font-family: 'ElMessiri_bold';
+    font-size: 18px;
+}
+
+.product-discount {
+    background-color: #007bff;
+    color: white;
+    display: block;
+    width: 80px;
+    padding: 5px;
+}
+
+.product-price {
+
+    display: inline-block;
+
+}
+
+.product-price-disc {
+
+    display: inline-block;
+}
+
+.all-price {
+    text-align: left;
+    font-size: 35px;
+}
+
+.product-button {
+
+    background-color: #91c848 !important;
+    border-radius: 20px !important;
+    color: white !important;
+
+}
+
+.product-card {
+    background: none !important;
+    border: none !important;
+}
+
+
+
+/* End Products */
+
+/* Home Media Query */
+
+
+@media only screen and (max-width: 400px) {
+    .descrip-owl {
+        font-size: 12px;
+        top: -46px;
+    }
+
+    .kasema-button-owl {
+
+        left: 35px;
+        font-size: 9px;
+    }
+
+    .safka1 {
+        font-size: 12px;
+        padding: 26px;
+    }
+
+    .dashed_owl {
+        font-size: 16px;
+    }
+
+    .discount-owl {
+        font-size: 10px;
+    }
+
+    .price-owl {
+        font-size: 18px;
+        padding: 24px;
+        padding-right: 62px;
+        margin-top: 46%;
+
+
+    }
+
+    .disount-price-owl {
+
+        font-size: 10px;
+    }
+
+}
+
+
+/* Home Media Query */
+
+
+/* HOME PAGE */
+
+
+
+
+
+
+
+
+
+
+
+/* PRODUCTS PAGE */
+
+.innerProduct-breadcrumb {
+    color: rgba(0, 0, 0, .5);
+}
+
+.innerProduct-title {
+    font-size: 25px;
+    font-family: 'Elmessiri';
+}
+
+.innerProduct-description {
+
+    font-size: 15px;
+    color: rgba(0, 0, 0, .5);
+}
+
+
+
+.border-dash {
+    border: 1px dashed;
+}
+
+.innerProduct-feature-title {
+    font-size: 25px;
+    font-family: 'Elmessiri';
+}
+
+.innerProduct-vendor-title {
+    font-size: 20px;
+}
+
+.sc-added-item:before {
+    z-index: 3 !important;
+    top: -25px !important;
+    right: -40px !important;
+}
+
+.sc-added-item:after {
+    z-index: 3 !important;
+    top: -23px !important;
+    right: -35px !important;
+}
+
+.product-option-discount-padge {
+    background-color: #007bff;
+    color: white !important;
+
+
+    position: absolute;
+    padding: 4px;
+    left: 0px;
+}
+
+.left-product-bar {
+    margin-right: 20px !important;
+    border: 1px dashed;
+    border-radius: 50px;
+}
+
+
+
+
+
+
+/* CART */
+.sc-cart-summary {
+    text-align: center !important;
+}
+
+.sc-cart-toolbar {
+    text-align: center !important;
+}
+
+.kasema_cart_count {
+    display: none;
+}
+
+.cart_product_counter {
+    height: 21px;
+    width: 20px;
+    text-align: center;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    margin-left: -20px;
+    margin-top: 13px;
+    z-index: 4;
+}
+
+/* CART */
+
+/* Input Increament */
+
+
+.number-input {
+    margin-bottom: 3rem;
+}
+
+.number-input button {
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 0;
+    position: relative;
+}
+
+.number-input button:before,
+.number-input button:after {
+    display: inline-block;
+    position: absolute;
+    content: '';
+    height: 2px;
+    transform: translate(-50%, -50%);
+}
+
+.number-input button.plus:after {
+    transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.number-input input[type=number] {
+    text-align: center;
+}
+
+.number-input.number-input {
+    border: 1px solid #ced4da;
+    width: 10rem;
+    border-radius: .25rem;
+}
+
+.number-input.number-input button {
+    width: 2.6rem;
+    height: .7rem;
+}
+
+.number-input.number-input button.minus {
+    padding-left: 10px;
+}
+
+.number-input.number-input button:before,
+.number-input.number-input button:after {
+    width: .7rem;
+    background-color: #495057;
+}
+
+.number-input.number-input input[type=number] {
+    max-width: 4rem;
+    padding: .5rem;
+    border: 1px solid #ced4da;
+    border-width: 0 1px;
+    font-size: 1rem;
+    height: 2rem;
+    color: #495057;
+}
+
+@media not all and (min-resolution:.001dpcm) {
+    @supports (-webkit-appearance: none) and (stroke-color:transparent) {
+
+        .number-input.def-number-input.safari_only button:before,
+        .number-input.def-number-input.safari_only button:after {
+            margin-top: -.3rem;
+        }
+    }
+}
+
+.number-input {
+    margin-bottom: 0 !important;
+}
+
+.number-input.number-input {
+    display: inline-block;
+    width: 9rem !important;
+}
+
+.number-input.number-input button {
+    width: 2.2rem !important;
+}
+
+/* Input Increament */
+
+
+/* PRODUCT PAGE Media Query */
+@media only screen and (max-width: 500px) {
+
+
+    .left-product-bar {
+        margin-right: 0 !important;
+        margin-top: 15px;
+    }
+
+    .kasema_cart {
+
+        position: fixed;
+        bottom: 30px;
+        left: 0;
+        z-index: 5;
+    }
+
+    .kasema_buy_now {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        z-index: 5;
+
+    }
+
+    #home-shopping-cart-area {
+        width: 310px !important;
+    }
+
+}
+
+@media only screen and (max-width: 700px) {
+    .left-product-bar {
+        margin-right: 0 !important;
+        margin-top: 15px;
+    }
+
+}
+
+/* PRODUCT PAGE Media Query */
+
+/* PRODUCTS PAGE */
+
+
+
+
+
+
+/* CAEGORY PAGE */
+
+
+
+
+/* CAEGORY PAGE */
+
+
+
+/*CART PAGE */
+
+.kasema-cart-border {
+
+    border-bottom: 5px dashed;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.cart-discount {
+    background-color: #007bff;
+    color: white;
+    width: 80px;
+    padding: 5px;
+}
+
+#step-1 > div.row.p-3 > div.col-10 > div:nth-child(2) > div:nth-child(2) > input {
+    font-size: 20px;
+    text-align: end;
+}
+
+
+.kasema_done_proccess i {
+
+    color: green;
+    font-size: 200px;
+    margin-bottom: 15px;
+}
+
+.kasema_done_proccess p {
+    font-size: 50px;
+}
+
+.kasema_code {
+    font-size: 70px;
+    font-weight: bold;
+    border: 2px dashed;
+    border-radius: 20px;
+    width: 270px;
+    margin: 0 auto;
+}
+
+
+.cart_list-steps {
+    font-size: 18px;
+}
+
+
+/* CART PAGE Media Query */
+@media only screen and (max-width: 400px) {
+
+    .cart-discount {
+        margin-right: 32px;
+        margin-top: 25px;
+    }
+
+    .cart_list-steps {
+        font-size: 12px;
+    }
+}
+
+
+/* CART PAGE Media Query */
+/*CART PAGE */
+
+
+
+
+
+
+
+
+/*VENDOR PAGE */
+
+.user_menu a {
+    margin: 10px;
+    font-size: 20px;
+
+
+}
+
+/*VENDOR PAGE */
+
+
+
+
+
+
+
+/*VENDOR_FINANCE PAGE */
+
+.info-box {
+
+    direction: rtl;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    margin: 0;
+    font-family: 'ElMessiri';
+    box-sizing: border-box;
+    display: flex !important;
+    margin-bottom: 1rem !important;
+    box-shadow: 0 0 1px rgba(0, 0, 0, .125), 0 1px 3px rgba(0, 0, 0, .2);
+    border-radius: .25rem;
+    padding: .5rem;
+    min-height: 80px;
+    background: #fff;
+}
+
+.info-box-icon {
+
+
+    direction: rtl;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    font-family: 'ElMessiri';
+    box-sizing: border-box;
+    background-color: #17a2b8 !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    border-radius: 0.25rem;
+    width: 70px;
+    text-align: center;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.info-box-content {
+
+    direction: rtl;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    margin: 0;
+    font-family: 'ElMessiri';
+    box-sizing: border-box;
+    text-align: right !important;
+    padding: 5px 10px;
+    flex: 1;
+}
+
+.info-box-text {
+
+    direction: rtl;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: right !important;
+    margin: 0;
+    padding: 0;
+    font-family: 'ElMessiri';
+    box-sizing: border-box;
+
+}
+
+.info-box-number {
+
+
+    direction: rtl;
+    font-size: 1rem;
+    font-weight: 700 !important;
+    line-height: 1.5;
+    color: #212529;
+    text-align: right !important;
+    margin: 0;
+    padding: 0;
+    font-family: 'ElMessiri';
+    box-sizing: border-box;
+}
+
+
+/*VENDOR_FINANCE PAGE */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Start Footer */
+
+.footer {
+    background-color: #007bff
+}
+
+.footer .content {
+    padding: 20px
+}
+
+.footer .content .links-list {
+    margin: 20px 0
+}
+
+.footer .content .links-list a {
+    color: #eee;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out
+}
+
+.footer .content .links-list a:hover {
+    background-color: #555
+}
+
+.footer .content .links-list li:not(:last-child) {
+    border-bottom: 1px solid #555
+}
+
+.footer .content .contacts-list {
+    color: #eee;
+    margin: 20px 0
+}
+
+.footer .content .contacts-list li {
+    padding: 15px
+}
+
+.footer .content .contacts-list li i {
+    color: #eee;
+    margin-left: 10px
+}
+
+.footer .content .ministry-logo img {
+    max-width: 100%;
+    margin: 40px 0 0;
+
+
+}
+
+.copyright {
+    background-color: #1a1a1a;
+    padding: 0px;
+    padding-top: 5px;
+    color: #bbb;
+    font-size: 18px
+}
+
+.footer-icon {
+
+    color: white;
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+.pay-foo {
+
+    margin-top: 40px;
+    color: white;
+
+}
+
+.footer-payment {
+    margin-left: 20px;
+}
+
+/* End Footer */
